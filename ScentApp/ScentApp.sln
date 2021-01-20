@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScentApp", "ScentApp\ScentApp.csproj", "{F929B0B0-EA00-462E-AF43-910371FBCAB9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "scent-client", "..\scent-client\", "{4B951910-E4D5-4E27-BBB8-09E9F73819D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1909"
+		Debug.AspNetCompiler.PhysicalPath = "..\scent-client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1909\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1909"
+		Release.AspNetCompiler.PhysicalPath = "..\scent-client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1909\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1909"
+		SlnRelativePath = "..\scent-client\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ScentClient", "..\ScentClient\", "{4307A835-87B1-44A6-9397-184F149E3BA7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_17764"
+		Debug.AspNetCompiler.PhysicalPath = "..\ScentClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_17764\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_17764"
+		Release.AspNetCompiler.PhysicalPath = "..\ScentClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_17764\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "17764"
+		SlnRelativePath = "..\ScentClient\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F929B0B0-EA00-462E-AF43-910371FBCAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F929B0B0-EA00-462E-AF43-910371FBCAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F929B0B0-EA00-462E-AF43-910371FBCAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F929B0B0-EA00-462E-AF43-910371FBCAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B951910-E4D5-4E27-BBB8-09E9F73819D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B951910-E4D5-4E27-BBB8-09E9F73819D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B951910-E4D5-4E27-BBB8-09E9F73819D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B951910-E4D5-4E27-BBB8-09E9F73819D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4307A835-87B1-44A6-9397-184F149E3BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4307A835-87B1-44A6-9397-184F149E3BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4307A835-87B1-44A6-9397-184F149E3BA7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4307A835-87B1-44A6-9397-184F149E3BA7}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0442ABD3-A8C4-461B-B891-762D02A164E9}
+	EndGlobalSection
+EndGlobal
