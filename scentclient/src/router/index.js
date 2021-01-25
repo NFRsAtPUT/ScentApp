@@ -1,14 +1,38 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Home from '../components/Home.vue'
 import Templates from '../components/Templates.vue'
+import Projects from '../components/Projects.vue'
+import Categories from '../components/Categories.vue'
+import ContextFactors from '../components/ContextFactors.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/Categories',
+    name: 'Categories',
+    component: Categories
+  },
+  {
+    path: '/ContextFactors',
+    name: 'ContextFactors',
+    component: ContextFactors
+  },
+  {
+    path: '/Templates',
     name: 'Templates',
     component: Templates
+  },
+  {
+    path: '/Projects',
+    name: 'Projects',
+    component: Projects
   },
   {
     path: '/about',

@@ -1,6 +1,26 @@
 <template>
-    <v-container>
-        <v-row>
+    <v-container fluid>
+    <v-app-bar
+      color="primary"
+      dense
+      dark
+      app
+    >
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+      <v-toolbar-title>Projects</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-magnify</v-icon>
+      </v-btn>
+     </v-app-bar>
+      <v-row>
         <v-col>
            <v-row>
             <h1>Projects</h1>
