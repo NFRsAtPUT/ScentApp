@@ -26,6 +26,11 @@ const apiClient = {
     return response.data
   },
 
+  async getProject (projectId) {
+    const response = await axios.get('/project/' + projectId)
+    return response.data
+  },
+
   async deleteProject (projectId) {
     const response = await axios.delete('/project/' + projectId)
     return response.data

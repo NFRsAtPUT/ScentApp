@@ -63,7 +63,9 @@ export default {
       }
       return this.isProjectSelected
     }
-
+  },
+  mounted () {
+    console.log(this.$store.getters.getCurrentProjectId)
   }
 }
 </script>
